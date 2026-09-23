@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="570" viewBox="0 0 1120 570" fill="none">
+<title>Codex LightCut · Codex 轻剪</title>
+<desc>把剪辑交给 Codex。把时间留给创作。后台剪辑 · 可编辑草稿 · 你来定稿。早期开发阶段。时间线为流程示意。</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1120" y2="570" gradientUnits="userSpaceOnUse"><stop stop-color="#10151C"/><stop offset="1" stop-color="#1C232C"/></linearGradient><linearGradient id="words"><stop stop-color="#F2F5F9"/><stop offset="1" stop-color="#B3BFCE"/></linearGradient></defs>
+<rect x="1" y="1" width="1118" height="568" rx="24" fill="url(#bg)" stroke="#303A46"/>
+<path d="M730 95h235a32 32 0 0 1 32 32v306M860 95v338M730 280h320" stroke="#A9B6C7" stroke-opacity=".045"/>
+<g transform="translate(42 36)"><rect width="40" height="40" rx="11" fill="#F2F5F9"/><path d="M11 10v20h10l3-5h-8V10zm18 0-10 20h6l10-20z" fill="#171D25"/></g>
+<text x="96" y="63" fill="#F2F5F9" font-family="Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="-.6">Codex LightCut</text>
+<rect x="886" y="42" width="192" height="29" rx="14.5" fill="#222D35" stroke="#34434B"/>
+<circle cx="903" cy="56" r="3" fill="#C1DCD8"/>
+<text x="918" y="60" fill="#C1DCD8" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" font-weight="600">早期开发阶段</text>
+<g font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">
+<text x="560" y="135" fill="#A9B6C7" font-size="11" font-weight="600" letter-spacing="2.8">CODEX × EDITABLE VIDEO</text>
+<text x="560" y="215" fill="#F2F5F9" font-size="60" font-weight="750" letter-spacing="-1.5">把剪辑交给 Codex</text>
+<text x="560" y="291" fill="url(#words)" font-size="60" font-weight="750" letter-spacing="-1.5">把时间留给创作</text>
+<text x="560" y="337" fill="#A9B6C7" font-size="18">后台剪辑 · 可编辑草稿 · 你来定稿</text>
+</g>
+<g transform="translate(163 380)">
+<text x="0" y="0" fill="#718194" font-family="monospace" font-size="10">00:00</text><text x="745" y="0" fill="#718194" font-family="monospace" font-size="10">00:30</text>
+<path d="M0 12H794" stroke="#34404D"/>
+<g fill="#91A9C0" fill-opacity=".14" stroke="#506176" stroke-opacity=".6">
+<rect x="0" y="22" width="46" height="27" rx="4"/><rect x="52" y="22" width="200" height="27" rx="4"/><rect x="258" y="22" width="175" height="27" rx="4"/><rect x="439" y="22" width="210" height="27" rx="4"/><rect x="655" y="22" width="139" height="27" rx="4"/>
+</g>
+<g fill="#C1DCD8" fill-opacity=".24"><rect x="52" y="56" width="90" height="7" rx="2"/><rect x="149" y="56" width="103" height="7" rx="2"/><rect x="258" y="56" width="126" height="7" rx="2"/><rect x="391" y="56" width="102" height="7" rx="2"/><rect x="500" y="56" width="149" height="7" rx="2"/><rect x="655" y="56" width="139" height="7" rx="2"/></g>
+<rect x="52" y="70" width="742" height="7" rx="2" fill="#91A9C0" fill-opacity=".16"/>
+<path d="M436 14v69" stroke="#C1DCD8" stroke-width="1.5"/><path d="m431 9 5 6 5-6v-6h-10z" fill="#C1DCD8"/>
+</g>
+<path d="M42 499H1078" stroke="#303A46"/>
+<text x="44" y="535" fill="#A9B6C7" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12">你继续工作，轻剪在后台整理时间线。</text>
+<text x="1076" y="535" fill="#A9B6C7" font-family="Arial, sans-serif" font-size="11" text-anchor="end">macOS / Windows</text>
+</svg>

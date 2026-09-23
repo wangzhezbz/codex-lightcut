@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Codex 轻剪：让 Codex 在后台准备可编辑的视频草稿。面向 macOS 与 Windows，早期开发中。">
+  <meta name="color-scheme" content="dark">
+  <title>Codex LightCut · Codex 轻剪</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <style>
+    :root{--ink:#0d1117;--panel:#171d25;--line:#303a46;--paper:#f2f5f9;--steel:#a9b6c7;--ice:#c1dcd8}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--ink);color:var(--paper);font:16px/1.8 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}a{color:inherit;text-underline-offset:5px}a:focus-visible{outline:3px solid var(--ice);outline-offset:5px;border-radius:4px}a:hover{color:var(--ice)}main{width:min(1120px,calc(100% - 64px));margin:32px auto 0}.hero{display:block;width:100%;height:auto}.platforms{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0}.platforms a{display:block;transition:transform .16s}.platforms a:hover{transform:translateY(-3px)}.platforms img{width:100%;height:auto;display:block}.nav{text-align:center;color:var(--steel);font-size:14px}.nav a{display:inline-block;margin:3px 8px}.languages{margin:24px 0 8px}.languages strong{color:var(--paper)}.intro{border-top:1px solid var(--line);margin-top:54px;padding-top:44px;display:grid;grid-template-columns:1fr 1fr;gap:56px}.eyebrow{font:11px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:2px;color:var(--ice)}h2{font-size:32px;line-height:1.5;letter-spacing:-.8px;font-weight:650;margin:16px 0 20px}p{color:var(--steel);margin:0 0 18px}.steps{list-style:none;margin:0;padding:0}.steps li{border-bottom:1px solid var(--line);padding:15px 0;display:flex;gap:20px;align-items:baseline}.steps li:first-child{padding-top:0}.steps span{font:12px ui-monospace,SFMono-Regular,Consolas,monospace;color:var(--ice)}.steps b{font-size:16px;font-weight:550}.steps small{display:block;color:var(--steel);font-size:13px;margin-top:3px}.note{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px 26px;margin:40px 0 0;font-size:14px}.note strong{color:var(--paper)}.note p{margin:6px 0 0}footer{display:flex;justify-content:space-between;gap:24px;color:var(--steel);font-size:12px;margin:28px 0 36px}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+    @media(max-width:700px){main{width:calc(100% - 28px);margin-top:14px}.platforms{grid-template-columns:1fr;gap:12px;margin-top:14px}.intro{grid-template-columns:1fr;gap:26px;margin-top:32px;padding-top:28px}h2{font-size:27px}.nav a{margin:5px 7px}.note{padding:18px;margin-top:28px}footer{flex-direction:column;gap:5px}.hero{min-height:250px;object-fit:cover;object-position:center}.platforms img{min-height:90px;object-fit:contain}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.platforms a{transition:none}.platforms a:hover{transform:none}}
+  </style>
+</head>
+<body>
+<main>
+  <h1 class="sr-only">Codex LightCut · Codex 轻剪：把剪辑交给 Codex，把时间留给创作</h1>
+  <picture><source media="(max-width:700px)" srcset="assets/hero-mobile.svg"><img class="hero" src="assets/hero-zh.svg" width="1120" height="570" alt="Codex 轻剪：把剪辑交给 Codex，把时间留给创作。后台剪辑，可编辑草稿。早期开发阶段。"></picture>
+  <div class="platforms" aria-label="平台状态">
+    <a href="https://github.com/wangzhezbz/codex-lightcut/blob/main/docs/platforms.md#macos"><img src="assets/platform-macos.svg" width="552" height="118" alt="macOS：本机流程已验证，暂无通用安装包。查看兼容范围。"></a>
+    <a href="https://github.com/wangzhezbz/codex-lightcut/blob/main/docs/platforms.md#windows"><img src="assets/platform-windows.svg" width="552" height="118" alt="Windows：基础适配开发中，待实机验收。查看测试进度。"></a>
+  </div>
+  <div class="nav languages"><strong>简体中文</strong> · <a href="https://github.com/wangzhezbz/codex-lightcut/blob/main/README.en.md" lang="en">English</a></div>
+  <nav class="nav" aria-label="项目导航">
+    <a href="https://github.com/wangzhezbz/codex-lightcut/blob/main/docs/getting-started.md">从这里开始</a> ·
+    <a href="https://github.com/wangzhezbz/codex-lightcut/blob/main/docs/capabilities.md">功能与边界</a> ·
+    <a href="https://github.com/wangzhezbz/codex-lightcut/blob/main/docs/roadmap.md">开发路线</a> ·
+    <a href="https://github.com/wangzhezbz/codex-lightcut/blob/main/CHANGELOG.md">更新记录</a>
+  </nav>
+  <section class="intro" aria-labelledby="workflow">
+    <div><div class="eyebrow">YOUR FOOTAGE. YOUR FINAL CUT.</div><h2 id="workflow">从一条素材，<br>到你能继续调整的初稿。</h2><p>让 Codex 根据你的要求整理内容，在后台处理剪切、字幕、封面与声音。视频和文字各在自己的轨道上，方便你打开剪映后继续精修。</p></div>
+    <ol class="steps">
+      <li><span>01</span><div><b>给出素材和要求</b><small>明确内容删留、字幕、声音与画面风格。</small></div></li>
+      <li><span>02</span><div><b>在后台准备草稿</b><small>处理与校验，不主动打开剪映或模拟键鼠。</small></div></li>
+      <li><span>03</span><div><b>在方便时打开并精修</b><small>保留可编辑轨道，由你确认最终画面与听感。</small></div></li>
+    </ol>
+  </section>
+  <aside class="note"><strong>正在开发，按真实进度交付。</strong><p>Mac 已在匹配的本机环境交付草稿；Windows 基础适配等待实机验收。当前公开仓库提供项目介绍与文档，暂无可下载安装的剪辑程序。<a href="https://github.com/wangzhezbz/codex-lightcut">查看 GitHub 项目 →</a></p></aside>
+  <footer><span>Codex LightCut · Codex 轻剪 · 独立社区项目</span><a href="https://github.com/wangzhezbz/codex-lightcut/blob/main/docs/licensing.md">原创展示与文档 MIT · 许可范围</a></footer>
+</main>
+</body>
+</html>

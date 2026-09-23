@@ -1,0 +1,25 @@
+# Only original publication sources belong here.
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+.env
+.env.*
+!.env.example
+upstream/
+research/
+work/
+local/
+dist/
+results/
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.dll
+*.dylib
+*.exe
+*.zip
+*.otf
+*.ttf

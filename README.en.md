@@ -30,7 +30,7 @@ As of 2026-09-24, the Windows R8.1 handoff reports 44 passing checks. A real cap
 
 ## Attribution and license
 
-Local research references [mcncarl/jianying-headless](https://github.com/mcncarl/jianying-headless), including [Windows PR #15](https://github.com/mcncarl/jianying-headless/pull/15). Its restricted engine and modified research package are **not distributed here**.
+The product and onboarding use the Codex LightCut identity. Dependency licensing and required notices are documented separately in [Licensing](docs/licensing.md).
 
 Original materials in this public repository use the [MIT license](LICENSE). This does not license external engines, Jianying, fonts, music or effect resources. See [licensing scope](docs/licensing.md).
 
@@ -41,6 +41,7 @@ Independent community project. Not affiliated with or endorsed by OpenAI, Jianyi
 Currently adapted to Jianying Pro **11.5.0** on macOS and Windows; the verified Windows build is **11.5.0.14471**. Compatibility work will follow future Jianying releases. New versions are supported only after verification, not automatically on release.
 
 
-## Public preview package
 
-[R8.1 runtime source and installers](downloads/LightCut-Mac-Windows-Preview-R81.zip)。已公开发布插件运行代码和安装器；不含上游原生引擎、剪映或用户素材。首次安装需具备合法且匹配的原生引擎，暂不承诺全新电脑零配置。
+## R8.2 integrated runtime
+
+[Download for macOS and Windows](downloads/LightCut-Mac-Windows-R82.zip). Includes plugin source, both draft engines and installers. Install Jianying Pro 11.5.0 separately (tested Windows build: 11.5.0.14471). The installer selects the bundled engine; users no longer need an external engine source. New packaging passed Mac preflight; Windows installation regression is pending. Independent dependency licenses remain included.

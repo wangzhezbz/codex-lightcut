@@ -39,3 +39,8 @@ Independent community project. Not affiliated with or endorsed by OpenAI, Jianyi
 ## Supported Jianying version
 
 Currently adapted to Jianying Pro **11.5.0** on macOS and Windows; the verified Windows build is **11.5.0.14471**. Compatibility work will follow future Jianying releases. New versions are supported only after verification, not automatically on release.
+
+
+## Public preview package
+
+[R8.1 runtime source and installers](downloads/LightCut-Mac-Windows-Preview-R81.zip)。已公开发布插件运行代码和安装器；不含上游原生引擎、剪映或用户素材。首次安装需具备合法且匹配的原生引擎，暂不承诺全新电脑零配置。

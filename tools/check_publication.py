@@ -37,7 +37,7 @@ for p in sorted(ROOT.rglob('*')):
     parts = p.relative_to(ROOT).parts
     if any(x in {'.git', '__pycache__'} for x in parts) or not p.is_file(): continue
     count += 1
-    if p.suffix.lower() in FORBIDDEN or parts[0] in {'upstream', 'work', 'local', 'research', 'results', 'dist'}:
+    if (p.suffix.lower() in FORBIDDEN and p.relative_to(ROOT).as_posix() != 'downloads/LightCut-Mac-Windows-Preview-R81.zip') or parts[0] in {'upstream', 'work', 'local', 'research', 'results', 'dist'}:
         errors.append('Unexpected private/runtime payload: ' + str(p.relative_to(ROOT)))
     if p.suffix in {'.md', '.html', '.svg'}:
         text = p.read_text(encoding='utf-8')

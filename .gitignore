@@ -23,3 +23,5 @@ results/
 *.zip
 *.otf
 *.ttf
+
+!downloads/LightCut-Mac-Windows-Preview-R81.zip

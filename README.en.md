@@ -1,47 +1,32 @@
-<p align="center"><img src="assets/hero-en.svg" alt="Codex LightCut — Let Codex handle the edit. Keep your time for the story." width="100%"></p>
+<p align="center"><img src="assets/hero-en.svg" alt="Codex LightCut: background editing, editable drafts" width="100%"></p>
 
+<p align="center"><a href="https://github.com/wangzhezbz/codex-lightcut/raw/refs/heads/main/downloads/LightCut-Mac-Windows-R82.zip">Download for macOS</a> · <a href="https://github.com/wangzhezbz/codex-lightcut/raw/refs/heads/main/downloads/LightCut-Mac-Windows-R82.zip">Download for Windows</a></p>
 <p align="center"><a href="README.md">简体中文</a> · <strong>English</strong></p>
-<p align="center"><a href="docs/getting-started.md">Get started</a> · <a href="docs/capabilities.md">Capabilities</a> · <a href="docs/roadmap.md">Roadmap</a> · <a href="docs/licensing.md">Licensing</a></p>
 
-## Background editing. An editable draft.
+## Edit through conversation
 
-**Codex LightCut** is an early-stage project for Codex-assisted video editing on macOS and Windows. Its goal is to turn source footage and editing instructions into a Jianying draft with separate video, caption and audio tracks, ready for you to refine.
+LightCut helps Codex turn talking-head footage into an editable Jianying draft, with separate video, caption and music tracks.
 
-The local workflow prepares and validates drafts without launching the editor or simulating keyboard and mouse input. Registration waits while the editor is running. Background work still consumes system resources.
+## Get started
 
-**This public repository currently contains original presentation assets, documentation and their validation script. It does not contain a runnable editing engine or an installer.** The implementation described below exists in a separate local research workspace.
+1. Download and extract the package.
+2. Open the `codex-lightcut` folder in Codex and ask: “Install LightCut and prepare local transcription.”
+3. Attach a video and ask: “Edit this with LightCut, remove repetition and long pauses, add single-line captions, and give me an editable Jianying draft.”
+4. Choose your cover, effects, music and pacing. Open the resulting draft in Jianying to review and export.
 
-| Platform | Local research status | Public availability |
-| --- | --- | --- |
-| macOS | Real talking-head drafts delivered in a matching Jianying 11.5.0 environment | No general-purpose installer |
-| Windows | Tested native builds, registration, effects and R8.1 caption-seam sample | Other versions, save/reopen and clean-machine delivery pending |
+The package includes both draft engines. Codex selects the platform and prepares dependencies; first-time installation needs internet access. Install Jianying separately.
 
-Local work covers cuts, basic speed changes, subtitles, covers, independent speech/BGM settings, and selected Mac-native beauty/color effects. Acoustic forced alignment, a desktop application and a full end-to-end benchmark remain unfinished. Content decisions and listening checks still require review.
+## Your preferences
 
-As of 2026-09-24, the Windows R8.1 handoff reports 44 passing checks. A real caption-seam sample was registered and accepted by the user. This applies to the tested environment, not arbitrary footage or versions. See the [R8.1 record](docs/release-r81.md).
+Use your own cover, extract a frame, generate a cover or omit it. Generated covers offer five starting styles and are shown for approval. Effects can be enabled, disabled or adjusted individually. Provide music you have permission to use, or choose none. Caption styling, speed and ending fade are adjustable. Save choices as defaults only when you want to.
 
-## Explore
+## Versions
 
-- [Getting started](docs/getting-started.md): availability and a sample editing brief.
-- [Platform compatibility](docs/platforms.md): version scope and testing boundaries.
-- [Development roadmap](docs/roadmap.md): completed work and acceptance criteria.
-- [Contributing](CONTRIBUTING.md): documentation, design and compatibility feedback.
-- Open `index.html` locally to view the static project page. It is a presentation, not an editing application. Detailed development documents are currently in Chinese.
+- LightCut **R8.2 / 0.4.2-preview.1**.
+- Jianying Pro **11.5.0** on Apple Silicon macOS or x64 Windows.
+- Windows build **11.5.0.14471**.
+- Compatibility will follow future Jianying releases after verification.
 
-## Attribution and license
+## Usage notes
 
-The product and onboarding use the Codex LightCut identity. Dependency licensing and required notices are documented separately in [Licensing](docs/licensing.md).
-
-Original materials in this public repository use the [MIT license](LICENSE). This does not license external engines, Jianying, fonts, music or effect resources. See [licensing scope](docs/licensing.md).
-
-Independent community project. Not affiliated with or endorsed by OpenAI, Jianying or other similarly named products.
-
-## Supported Jianying version
-
-Currently adapted to Jianying Pro **11.5.0** on macOS and Windows; the verified Windows build is **11.5.0.14471**. Compatibility work will follow future Jianying releases. New versions are supported only after verification, not automatically on release.
-
-
-
-## R8.2 integrated runtime
-
-[Download for macOS and Windows](downloads/LightCut-Mac-Windows-R82.zip). Includes plugin source, both draft engines and installers. Install Jianying Pro 11.5.0 separately (tested Windows build: 11.5.0.14471). The installer selects the bundled engine; users no longer need an external engine source. New packaging passed Mac preflight; Windows installation regression is pending. Independent dependency licenses remain included.
+Editing runs in the background without launching or closing Jianying or taking keyboard focus. If Jianying is running, draft registration waits for a normal exit. Existing drafts are preserved. Review the result before export; paid effect entitlements remain governed by Jianying. LightCut is used through Codex, not a standalone editor window.

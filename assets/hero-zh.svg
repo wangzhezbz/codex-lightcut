@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1120" height="570" viewBox="0 0 1120 570" fill="none">
 <title>Codex LightCut · Codex 轻剪</title>
-<desc>把剪辑交给 Codex。把时间留给创作。后台剪辑 · 可编辑草稿 · 你来定稿。早期开发阶段。时间线为流程示意。</desc>
+<desc>把剪辑交给 Codex。把时间留给创作。后台剪辑 · 可编辑草稿 · 你来定稿。剪映 11.5.0。时间线为流程示意。</desc>
 <defs><linearGradient id="bg" x1="0" y1="0" x2="1120" y2="570" gradientUnits="userSpaceOnUse"><stop stop-color="#10151C"/><stop offset="1" stop-color="#1C232C"/></linearGradient><linearGradient id="words"><stop stop-color="#F2F5F9"/><stop offset="1" stop-color="#B3BFCE"/></linearGradient></defs>
 <rect x="1" y="1" width="1118" height="568" rx="24" fill="url(#bg)" stroke="#303A46"/>
 <path d="M730 95h235a32 32 0 0 1 32 32v306M860 95v338M730 280h320" stroke="#A9B6C7" stroke-opacity=".045"/>
@@ -8,7 +8,7 @@
 <text x="96" y="63" fill="#F2F5F9" font-family="Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="-.6">Codex LightCut</text>
 <rect x="886" y="42" width="192" height="29" rx="14.5" fill="#222D35" stroke="#34434B"/>
 <circle cx="903" cy="56" r="3" fill="#C1DCD8"/>
-<text x="918" y="60" fill="#C1DCD8" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" font-weight="600">早期开发阶段</text>
+<text x="918" y="60" fill="#C1DCD8" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" font-weight="600">剪映 11.5.0</text>
 <g font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">
 <text x="560" y="135" fill="#A9B6C7" font-size="11" font-weight="600" letter-spacing="2.8">CODEX × EDITABLE VIDEO</text>
 <text x="560" y="215" fill="#F2F5F9" font-size="60" font-weight="750" letter-spacing="-1.5">把剪辑交给 Codex</text>

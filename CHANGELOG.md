@@ -2,6 +2,13 @@
 
 [返回首页](README.md)
 
+## R8.7 · 0.4.7-preview.1
+
+- Windows 支持原生字幕阴影，保留已选择的阴影设置。
+- 更新插件说明，统一字幕阴影的使用描述。
+
+[下载 R8.7](downloads/LightCut-Mac-Windows-R87.zip)
+
 ## R8.6 · 0.4.6-preview.1
 
 - 自动查找本机指定字体；字体缺失、失效或不匹配时明确提示。

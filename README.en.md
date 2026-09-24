@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/hero-en.svg" alt="Codex LightCut: background editing, editable drafts" width="100%"></p>
 
-<p align="center"><a href="https://github.com/wangzhezbz/codex-lightcut/raw/refs/heads/main/downloads/LightCut-Mac-Windows-R86.zip">Download for macOS</a> · <a href="https://github.com/wangzhezbz/codex-lightcut/raw/refs/heads/main/downloads/LightCut-Mac-Windows-R86.zip">Download for Windows</a></p>
+<p align="center"><a href="https://github.com/wangzhezbz/codex-lightcut/raw/refs/heads/main/downloads/LightCut-Mac-Windows-R87.zip">Download for macOS</a> · <a href="https://github.com/wangzhezbz/codex-lightcut/raw/refs/heads/main/downloads/LightCut-Mac-Windows-R87.zip">Download for Windows</a></p>
 <p align="center"><a href="README.md">简体中文</a> · <strong>English</strong></p>
 
 ## Edit through conversation
@@ -21,7 +21,7 @@ Use your own cover, extract a frame, generate a cover or omit it. Generated cove
 
 ## Versions
 
-- LightCut **R8.6 / 0.4.6-preview.1**.
+- LightCut **R8.7 / 0.4.7-preview.1**.
 - Jianying Pro **11.5.0** on Apple Silicon macOS or x64 Windows.
 - Windows build **11.5.0.14471**.
 - Compatibility will follow future Jianying releases after verification.

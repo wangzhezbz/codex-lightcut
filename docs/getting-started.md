@@ -6,7 +6,7 @@
 
 ## 安装
 
-[下载安装包](../downloads/LightCut-Mac-Windows-R86.zip)，拖给 Codex，说：
+[下载安装包](../downloads/LightCut-Mac-Windows-R87.zip)，拖给 Codex，说：
 
 > 帮我安装。
 

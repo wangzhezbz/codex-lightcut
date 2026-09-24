@@ -1,8 +1,8 @@
 <p align="center"><img src="assets/hero-zh.svg" alt="Codex 轻剪：把剪辑交给 Codex，把时间留给创作" width="100%"></p>
 
 <p align="center">
-<a href="https://github.com/wangzhezbz/codex-lightcut/raw/refs/heads/main/downloads/LightCut-Mac-Windows-R86.zip"><img src="assets/platform-macos.svg" width="49%" alt="下载 macOS 安装包"></a>
-<a href="https://github.com/wangzhezbz/codex-lightcut/raw/refs/heads/main/downloads/LightCut-Mac-Windows-R86.zip"><img src="assets/platform-windows.svg" width="49%" alt="下载 Windows 安装包"></a>
+<a href="https://github.com/wangzhezbz/codex-lightcut/raw/refs/heads/main/downloads/LightCut-Mac-Windows-R87.zip"><img src="assets/platform-macos.svg" width="49%" alt="下载 macOS 安装包"></a>
+<a href="https://github.com/wangzhezbz/codex-lightcut/raw/refs/heads/main/downloads/LightCut-Mac-Windows-R87.zip"><img src="assets/platform-windows.svg" width="49%" alt="下载 Windows 安装包"></a>
 </p>
 
 <p align="center"><strong>简体中文</strong> · <a href="README.en.md">English</a></p>
@@ -39,7 +39,7 @@ Codex LightCut（轻剪）通过对话完成口播剪辑，交付可以继续调
 
 ## 当前版本
 
-- **LightCut：R8.6 / 0.4.6-preview.1**。
+- **LightCut：R8.7 / 0.4.7-preview.1**。
 - **适配剪映专业版：11.5.0**，支持 macOS（Apple Silicon）和 Windows x64。
 - Windows 对应构建：**11.5.0.14471**。
 - 后续随剪映版本更新持续适配，新版本通过兼容验证后再支持。

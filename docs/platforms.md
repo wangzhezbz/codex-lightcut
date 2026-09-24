@@ -4,7 +4,7 @@
 
 | 项目 | 当前支持 |
 | --- | --- |
-| LightCut | R8.6 / 0.4.6-preview.1 |
+| LightCut | R8.7 / 0.4.7-preview.1 |
 | macOS | Apple Silicon；剪映专业版11.5.0 |
 | Windows | x64；剪映专业版11.5.0.14471 |
 

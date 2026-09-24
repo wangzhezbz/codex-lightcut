@@ -8,7 +8,7 @@
 
 ## 安装
 
-1. [下载安装包](../downloads/LightCut-Mac-Windows-R82.zip)，解压到固定位置。
+1. [下载安装包](../downloads/LightCut-Mac-Windows-R84.zip)，解压到固定位置。
 2. 在Codex中打开`codex-lightcut`文件夹，发送“帮我安装LightCut，并准备本地语音转写”。
 3. Codex读取插件说明并选择系统安装入口，自动准备独立环境和包内引擎。完成后再开始剪辑。
 

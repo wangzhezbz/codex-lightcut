@@ -2,6 +2,15 @@
 
 [返回首页](README.md)
 
+## R8.6 · 0.4.6-preview.1
+
+- 自动查找本机指定字体；字体缺失、失效或不匹配时明确提示。
+- 安装前检查磁盘空间。
+- 改进 Windows 自定义剪映安装路径识别。
+- 统一命令行、插件与文档版本信息。
+
+[下载 R8.6](downloads/LightCut-Mac-Windows-R86.zip)
+
 ## R8.4 · 0.4.4-preview.1
 
 - 字幕默认推荐凌丝体，Mac 与 Windows 使用相同的字体检查。

@@ -9,12 +9,11 @@ LightCut helps Codex turn talking-head footage into an editable Jianying draft, 
 
 ## Get started
 
-1. Download and extract the package.
-2. Open the `codex-lightcut` folder in Codex and ask: “Install LightCut and prepare local transcription.”
-3. Attach a video and ask: “Edit this with LightCut, remove repetition and long pauses, add single-line captions, and give me an editable Jianying draft.”
-4. Choose your cover, effects, music and pacing. Open the resulting draft in Jianying to review and export.
+1. Download the package, attach it to Codex and say: **“Install this.”**
+2. Attach your video and say: **“Edit this video.”**
+3. Follow the prompts to choose your style, then open the finished draft in Jianying to review and export.
 
-The package includes both draft engines. Codex selects the platform and prepares dependencies; first-time installation needs internet access. Install Jianying separately.
+Install Jianying Pro 11.5.0 first. Internet access is needed for initial setup.
 
 ## Your preferences
 

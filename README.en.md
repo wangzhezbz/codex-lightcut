@@ -14,11 +14,11 @@ The local workflow prepares and validates drafts without launching the editor or
 | Platform | Local research status | Public availability |
 | --- | --- | --- |
 | macOS | Real talking-head drafts delivered in a matching Jianying 11.5.0 environment | No general-purpose installer |
-| Windows | Basic adapter implemented; simulated branch checks pass on Mac | Native DLL, registration, rendering and save/reopen acceptance pending |
+| Windows | Tested native builds, registration, effects and R8.1 caption-seam sample | Other versions, save/reopen and clean-machine delivery pending |
 
-Local work covers cuts, basic speed changes, subtitles, covers, independent speech/BGM settings, and selected Mac-native beauty/color effects. Windows effects, word-level alignment, a desktop application and a full end-to-end benchmark remain unfinished. Content decisions and listening checks still require review.
+Local work covers cuts, basic speed changes, subtitles, covers, independent speech/BGM settings, and selected Mac-native beauty/color effects. Acoustic forced alignment, a desktop application and a full end-to-end benchmark remain unfinished. Content decisions and listening checks still require review.
 
-As of 2026-09-23, 50 local Studio tests and 64 candidate-engine tests passed. These are historical local results, not this repository's CI status, and do not establish Windows-native compatibility.
+As of 2026-09-24, the Windows R8.1 handoff reports 44 passing checks. A real caption-seam sample was registered and accepted by the user. This applies to the tested environment, not arbitrary footage or versions. See the [R8.1 record](docs/release-r81.md).
 
 ## Explore
 
@@ -35,3 +35,7 @@ Local research references [mcncarl/jianying-headless](https://github.com/mcncarl
 Original materials in this public repository use the [MIT license](LICENSE). This does not license external engines, Jianying, fonts, music or effect resources. See [licensing scope](docs/licensing.md).
 
 Independent community project. Not affiliated with or endorsed by OpenAI, Jianying or other similarly named products.
+
+## Supported Jianying version
+
+Currently adapted to Jianying Pro **11.5.0** on macOS and Windows; the verified Windows build is **11.5.0.14471**. Compatibility work will follow future Jianying releases. New versions are supported only after verification, not automatically on release.

@@ -8,7 +8,7 @@
 
 ## 不包含的研究依赖
 
-本地剪辑研究参考了 [mcncarl/jianying-headless](https://github.com/mcncarl/jianying-headless) 和 [Windows PR #15](https://github.com/mcncarl/jianying-headless/pull/15)。本地核查的上游许可允许个人学习及非商业研究，限制公开产品打包与商业用途。上游许可应以[原仓库 LICENSE](https://github.com/mcncarl/jianying-headless/blob/main/LICENSE)和权利人的授权为准。
+本地剪辑研究参考了 [mcncarl/jianying-headless](https://github.com/mcncarl/jianying-headless) 和 [Windows PR #15](https://github.com/mcncarl/jianying-headless/pull/15)。2026-09-24 在线核对的上游许可允许个人学习及非商业研究，限制公开产品打包与商业用途。上游许可应以[原仓库 LICENSE](https://github.com/mcncarl/jianying-headless/blob/main/LICENSE)和权利人的授权为准。
 
 因此，这个公开仓库没有包含该引擎及修改版、完整研究工作区、私人测试包或其原生运行组件。这里的 MIT 许可不改变上游的许可。
 
@@ -19,3 +19,7 @@
 ## 品牌说明
 
 Codex LightCut / Codex 轻剪是独立社区项目名。项目未声称与 OpenAI、剪映或其他同名产品存在官方关系，仓库 MIT 许可也不授予第三方商标权。
+
+## 下一步授权事项
+
+需要明确覆盖两端引擎、必要修改、公开免费分发及预期商业用途的书面授权；目前尚未取得或发送授权请求。仅移除引擎二进制不能自动证明所有运行适配代码均可公开。先按文件审核来源，再决定发布范围；未获许可的部分保持私有。另一条路线是独立实现并重新验收原生适配。
